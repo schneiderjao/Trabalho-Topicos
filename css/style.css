@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho{
+    width: 1200px;
+    min-height: 80px;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 4px;
+    font-size: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive; 
+}
+
+.centro{
+    width: 1200px;
+    min-height: 350px;
+    background-color: rgba(220, 220, 220, 0.774);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+}
+
+.rodape{
+    width: 1200px;
+    min-height: 350px;
+    background-color: rgba(220, 220, 220, 0.774);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+}
+
+figure{
+    width: 75%;
+}
+
+img{
+    width: 100%;
+}
+
+.nome{
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    background-color: rgb(136, 14, 223);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.type{
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    background-color: rgb(136, 14, 223);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 6px;
+    border-radius: 10px;
+}
