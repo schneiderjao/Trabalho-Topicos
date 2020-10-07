@@ -1,0 +1,28 @@
+cod
+anoCenso
+nome
+nomeMunicipio
+laboratorioInformatica
+laboratorioCiencias
+atendimentoEspecial
+biblioteca
+regFundamental9
+regMedioMedio
+regMedioIntegrado
+ensinoEspecial
+
+notas enem:
+
+enemPortugues
+enemMatematica
+enemHumanas
+enemNaturais
+enemRedacao
+enemMediaObjetiva
+enemMediaGeral
+
+dependenciaAdministrativaTxt
+
+PEGAR INEPS: https://www.escol.as/
+LINK API: http://educacao.dadosabertosbr.com/api/docs/%2Fapi%2Fescolas
+
