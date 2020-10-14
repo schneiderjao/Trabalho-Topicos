@@ -17,4 +17,5 @@ status_date
 cnpjs:
 Microsoft - 60316817000103
 Banco do Brasil - 00000000000191
-IF - 10637926000146
+
+SITE: https://rapidapi.com/cnpja/api/consulta-cnpj-gratis

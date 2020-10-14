@@ -1,7 +1,8 @@
 function funcao() {
 
     var CNPJ = document.getElementById("bo").value;
-    fetch("https://consulta-cnpj-gratis.p.rapidapi.com/companies/" + CNPJ, {
+    var NumPesquisa = CNPJ.replace(/[^\d]+/g,'');
+    fetch("https://consulta-cnpj-gratis.p.rapidapi.com/companies/" + NumPesquisa, {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "consulta-cnpj-gratis.p.rapidapi.com",
