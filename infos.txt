@@ -15,7 +15,10 @@ status
 status_date
 
 cnpjs:
-Microsoft - 60316817000103
-Banco do Brasil - 00000000000191
+Microsoft - 60.316.817/0001-03
+Banco do Brasil - 00.000.000/0001-91
+PATRIMONIUM - 11.888.881/0001-45
+
+
 
 SITE: https://rapidapi.com/cnpja/api/consulta-cnpj-gratis

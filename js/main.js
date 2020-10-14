@@ -21,11 +21,15 @@ function funcao() {
             document.querySelector(".state").innerHTML = response["address"].state;
 
             if ((document.querySelector(".capital").innerHTML = response.capital) == null) {
-                document.querySelector(".capital").innerHTML = "0";
+                document.querySelector(".capital").innerHTML = "Não informado";
             } else {
                 document.querySelector(".capital").innerHTML = response.capital;
             }
-            document.querySelector(".email").innerHTML = response.email;
+            if ((document.querySelector(".email").innerHTML = response.email) == null) {
+                document.querySelector(".email").innerHTML = "Não informado";
+            } else {
+                document.querySelector(".email").innerHTML = response.email;
+            }
             document.querySelector(".founded").innerHTML = response.founded;
 
             document.querySelector(".status").innerHTML = response["registration"].status;
